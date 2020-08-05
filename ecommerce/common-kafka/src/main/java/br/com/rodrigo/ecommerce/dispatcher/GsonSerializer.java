@@ -1,7 +1,11 @@
-package br.com.rodrigo.ecommerce;
+package br.com.rodrigo.ecommerce.dispatcher;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import br.com.rodrigo.ecommerce.Message;
+import br.com.rodrigo.ecommerce.MessageAdapter;
+
 import org.apache.kafka.common.serialization.Serializer;
 
 public class GsonSerializer<T> implements Serializer<T> {

@@ -8,6 +8,8 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
+import br.com.rodrigo.ecommerce.consumer.KafkaService;
+
 public class LogService {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
